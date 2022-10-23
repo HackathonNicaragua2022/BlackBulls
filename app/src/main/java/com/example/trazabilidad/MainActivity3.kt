@@ -9,12 +9,7 @@ class MainActivity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main4)
-        val  botonlogin = findViewById<Button>(R.id.botonlogin)
-        botonlogin.setOnClickListener{
-            val changepage = Intent(this,home::class.java)
 
-            startActivity(changepage)
-        }
 
     }
 }
