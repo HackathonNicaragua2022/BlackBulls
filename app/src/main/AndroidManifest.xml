@@ -13,19 +13,36 @@
         android:theme="@style/Theme.Trazabilidad"
         tools:targetApi="31">
         <activity
+            android:name=".home"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".perfila"
+<<<<<<< HEAD
 
             android:exported="true">
+=======
+            android:exported="false">
+>>>>>>> 66a1dfb9730fb487dad72582ea0711588c0aa2ec
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".MainActivity3"
+<<<<<<< HEAD
             android:exported="true"/>
+=======
+            android:exported="false" />
+
+>>>>>>> 66a1dfb9730fb487dad72582ea0711588c0aa2ec
         <meta-data
             android:name="android.app.lib_name"
             android:value="" />
+
         <activity
             android:name=".MainActivity2"
             android:exported="true">
