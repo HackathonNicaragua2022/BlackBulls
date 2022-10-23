@@ -21,24 +21,17 @@
         </activity>
         <activity
             android:name=".perfila"
-<<<<<<< HEAD
 
-            android:exported="true">
-=======
-            android:exported="false">
->>>>>>> 66a1dfb9730fb487dad72582ea0711588c0aa2ec
+
+            android:exported="true"></activity>
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-        </activity>
+
         <activity
             android:name=".MainActivity3"
-<<<<<<< HEAD
             android:exported="true"/>
-=======
-            android:exported="false" />
 
->>>>>>> 66a1dfb9730fb487dad72582ea0711588c0aa2ec
         <meta-data
             android:name="android.app.lib_name"
             android:value="" />
