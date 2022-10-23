@@ -13,7 +13,11 @@
         android:theme="@style/Theme.Trazabilidad"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".perfila"
+=======
+            android:name=".MainActivity3"
+>>>>>>> 47fa734ff4fe20aada4e5988a5e64a83d4e63aa9
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
