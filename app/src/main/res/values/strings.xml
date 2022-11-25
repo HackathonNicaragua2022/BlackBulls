@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Trazabilidad</string>
+    <string name="all">TODO</string>
+    <string name="name">Final fantasy VII remake</string>
+    <string name="date">2 de marzo de 2020</string>
+    <string name="title_activity_main">Videjuegos</string>
+    <string name="subtitle_activity_main">2020</string>
+    <string name="title_activity_add">Nuevo videojuego</string>
+    <string name="title_activity_edit">Datos del videojuego</string>
+    <string name="name_form">Nombre</string>
+    <string name="date_form">Fecha</string>
+    <string name="url_form">Url imagen</string>
+    <string name="description_form">Descripción</string>
+    <string name="save">Guardar</string>
 </resources>
