@@ -55,7 +55,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="11dp"
         tools:layout_editor_absoluteY="473dp" />
-
+<!--boton de traslado a la pestañade de hoja de vacunacion-->
     <Button
         android:id="@+id/btnhv"
         android:layout_width="156dp"
