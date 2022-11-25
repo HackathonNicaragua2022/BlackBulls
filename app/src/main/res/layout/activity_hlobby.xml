@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/hgsinfo"
     android:layout_height="match_parent"
-    tools:context=".hginfo">
+    android:background="@drawable/lobby1"
+    tools:context=".hlobby">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="140dp"
         android:layout_height="126dp"
-        app:srcCompat="@drawable/prevencion"
+        app:srcCompat="@drawable/registrolp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="46dp"
         tools:layout_editor_absoluteY="99dp" />
@@ -20,7 +20,7 @@
         android:id="@+id/imageView2"
         android:layout_width="140dp"
         android:layout_height="126dp"
-        app:srcCompat="@drawable/registrov3"
+        app:srcCompat="@drawable/cow"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="235dp"
         tools:layout_editor_absoluteY="99dp" />
@@ -29,42 +29,41 @@
         android:id="@+id/imageView3"
         android:layout_width="140dp"
         android:layout_height="126dp"
-        app:srcCompat="@drawable/registrov1"
+        app:srcCompat="@drawable/documents"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="356dp" />
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="333dp" />
 
     <Button
-        android:id="@+id/btnpa"
+        android:id="@+id/btngif"
         android:layout_width="175dp"
         android:layout_height="55dp"
-        android:backgroundTint="@color/white"
-        android:text="Productos aplicados"
-        android:textColor="#131313"
+        android:text="gestion de informacíon"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="496dp" />
+        android:textColor="#131313"
+        android:backgroundTint="@color/white"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="472dp" />
 
     <Button
-        android:id="@+id/btnce"
-        android:layout_width="179dp"
+        android:id="@+id/btnrf"
+        android:layout_width="153dp"
         android:layout_height="59dp"
         android:backgroundTint="@color/white"
-        android:text="Control de enfermemedades"
+        android:text="Registro de finca"
         android:textColor="#131313"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteX="37dp"
         tools:layout_editor_absoluteY="237dp" />
 
     <Button
-        android:id="@+id/btncv"
-        android:layout_width="178dp"
+        android:id="@+id/btnida"
+        android:layout_width="162dp"
         android:layout_height="59dp"
         android:backgroundTint="@color/white"
-        android:text="Control de vacunas"
+        android:text="identificador de animales"
         android:textColor="#131313"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteX="234dp"
         tools:layout_editor_absoluteY="237dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
