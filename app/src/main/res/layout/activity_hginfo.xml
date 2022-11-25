@@ -6,7 +6,7 @@
     android:background="@drawable/hgsinfo"
     android:layout_height="match_parent"
     tools:context=".hginfo">
-
+    <!-- Inicio de imagenes-->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="140dp"
@@ -33,18 +33,21 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="356dp" />
+    <!--    finalizan imagenes-->
 
+
+<!--    boton de traslado a la pestaña de productos aplicados-->
     <Button
         android:id="@+id/btnpa"
         android:layout_width="175dp"
-        android:layout_height="55dp"
+        android:layout_height="60dp"
         android:backgroundTint="@color/white"
         android:text="Productos aplicados"
         android:textColor="#131313"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="131dp"
         tools:layout_editor_absoluteY="496dp" />
-
+<!--Boton de translado ala pestaña de control de vacunas-->
     <Button
         android:id="@+id/btnce"
         android:layout_width="179dp"
@@ -55,7 +58,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="237dp" />
-
+<!--Boton de traslado al control de enfermedades-->
     <Button
         android:id="@+id/btncv"
         android:layout_width="178dp"

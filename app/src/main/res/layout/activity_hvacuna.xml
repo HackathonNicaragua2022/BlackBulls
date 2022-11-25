@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/hcvacunas"
-    tools:context=".hcvacuna">
-
+    tools:context=".hvacunas">
+<!-- Inicio de imagenes-->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="107dp"
@@ -42,7 +42,9 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="46dp"
         tools:layout_editor_absoluteY="343dp" />
+<!--    finalizan imagenes-->
 
+<!--boton de traslador a la pestaña de registro de vacuna-->
     <Button
         android:id="@+id/btnrv"
         android:layout_width="156dp"
@@ -64,7 +66,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="222dp"
         tools:layout_editor_absoluteY="473dp" />
-
+<!--Boton de transalado a la lista de animales vacunados-->
     <Button
         android:id="@+id/btnav"
         android:layout_width="156dp"
@@ -75,9 +77,9 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="237dp" />
-
+<!--  Boton de traslado a la pestaña de registro de vacuna -->
     <Button
-        android:id="@+id/btnida"
+        android:id="@+id/btnrvc"
         android:layout_width="156dp"
         android:layout_height="51dp"
         android:backgroundTint="@color/white"

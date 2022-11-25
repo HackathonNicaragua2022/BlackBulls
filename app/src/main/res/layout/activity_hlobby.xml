@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/lobby1"
     tools:context=".hlobby">
-
+<!--Inicio de imagenes -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="140dp"
@@ -33,6 +33,9 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="333dp" />
+<!--Finalzian imagenes -->
+
+<!--    boton de transalado a la pestaña de gestion de informacion-->
 
     <Button
         android:id="@+id/btngif"
@@ -44,7 +47,7 @@
         android:backgroundTint="@color/white"
         tools:layout_editor_absoluteX="123dp"
         tools:layout_editor_absoluteY="472dp" />
-
+<!--boton de traslado ala pestaña de registro de finca-->
     <Button
         android:id="@+id/btnrf"
         android:layout_width="153dp"
@@ -55,7 +58,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="37dp"
         tools:layout_editor_absoluteY="237dp" />
-
+<!--Boton de translado a la pestaña de identificador de animales-->
     <Button
         android:id="@+id/btnida"
         android:layout_width="162dp"
