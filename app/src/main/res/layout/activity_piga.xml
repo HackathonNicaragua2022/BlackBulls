@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".piga">
 
+<!--para ver el animal-->
     <View
     android:layout_width="match_parent"
     android:layout_height="320dp"
@@ -37,6 +38,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
+<!--Para agregar-->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -59,6 +61,7 @@
                 android:text="@string/name_form"
                 android:textSize="18sp" />
 
+            <!--nombre-->
             <EditText
                 android:id="@+id/nameEditText"
                 android:layout_width="match_parent"
@@ -81,6 +84,7 @@
                 android:paddingRight="16dp"
                 android:paddingBottom="8dp" />
 
+            <!--fecha nacimiento-->
             <EditText
                 android:id="@+id/dateEditText"
                 android:layout_width="120dp"
@@ -113,6 +117,7 @@
                 android:text="@string/date_form"
                 android:textSize="18sp" />
 
+            <!--Imagen-->
             <EditText
                 android:id="@+id/urlEditText"
                 android:layout_width="match_parent"
@@ -152,7 +157,7 @@
                 android:layout_toRightOf="@+id/dateTextView"
                 android:text="@string/url_form"
                 android:textSize="18sp" />
-
+            <!--descripcion-->
             <EditText
                 android:id="@+id/descriptionEditText"
                 android:layout_width="match_parent"
@@ -195,7 +200,7 @@
                 android:layout_marginRight="16dp"
                 android:text="@string/description_form"
                 android:textSize="18sp" />
-
+            <!--boton guardar-->
             <Button
                 android:id="@+id/saveButton"
                 android:layout_width="240dp"
