@@ -7,47 +7,66 @@
     android:background="@drawable/lobby1"
     tools:context=".hlobby">
 <!--Inicio de imagenes -->
+
+    <!--Finalzian imagenes -->
+
+<!--    boton de transalado a la pestaña de gestion de informacion-->
+
+    <!--boton de traslado ala pestaña de registro de finca-->
+    <!--Boton de translado a la pestaña de identificador de animales-->
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="140dp"
         android:layout_height="126dp"
-        app:srcCompat="@drawable/registrolp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="99dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        app:srcCompat="@drawable/registrolp" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="140dp"
         android:layout_height="126dp"
-        app:srcCompat="@drawable/cow"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="99dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        app:srcCompat="@drawable/cow" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="140dp"
         android:layout_height="126dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611"
         app:srcCompat="@drawable/documents"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="333dp" />
-<!--Finalzian imagenes -->
-
-<!--    boton de transalado a la pestaña de gestion de informacion-->
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btngif"
         android:layout_width="175dp"
         android:layout_height="55dp"
-        android:text="gestion de informacíon"
-        tools:ignore="MissingConstraints"
-        android:textColor="#131313"
         android:backgroundTint="@color/white"
-        tools:layout_editor_absoluteX="123dp"
-        tools:layout_editor_absoluteY="472dp" />
-<!--boton de traslado ala pestaña de registro de finca-->
+        android:text="gestion de informacíon"
+        android:textColor="#131313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758"
+        tools:ignore="MissingConstraints" />
+
     <Button
         android:id="@+id/btnrf"
         android:layout_width="153dp"
@@ -55,10 +74,14 @@
         android:backgroundTint="@color/white"
         android:text="Registro de finca"
         android:textColor="#131313"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="237dp" />
-<!--Boton de translado a la pestaña de identificador de animales-->
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366"
+        tools:ignore="MissingConstraints" />
+
     <Button
         android:id="@+id/btnida"
         android:layout_width="162dp"
@@ -66,7 +89,11 @@
         android:backgroundTint="@color/white"
         android:text="identificador de animales"
         android:textColor="#131313"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="237dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

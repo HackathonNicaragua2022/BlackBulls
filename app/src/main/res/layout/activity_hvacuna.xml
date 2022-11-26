@@ -7,77 +7,14 @@
     android:background="@drawable/hcvacunas"
     tools:context=".hvacunas">
 <!-- Inicio de imagenes-->
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="107dp"
-        android:layout_height="105dp"
-        app:srcCompat="@drawable/jeringuilla"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="99dp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="107dp"
-        android:layout_height="105dp"
-        app:srcCompat="@drawable/calidad"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="99dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="107dp"
-        android:layout_height="105dp"
-        app:srcCompat="@drawable/vacunacion"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="343dp" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="107dp"
-        android:layout_height="105dp"
-        app:srcCompat="@drawable/vacuna"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="343dp" />
-<!--    finalizan imagenes-->
+    <!--    finalizan imagenes-->
 
 <!--boton de traslador a la pestaña de registro de vacuna-->
-    <Button
-        android:id="@+id/btnrv"
-        android:layout_width="156dp"
-        android:layout_height="51dp"
-        android:backgroundTint="@color/white"
-        android:text="Registrar vacunas"
-        android:textColor="#131313"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="473dp" />
-<!--boton de traslado a la pestañade de hoja de vacunacion-->
-    <Button
-        android:id="@+id/btnhv"
-        android:layout_width="156dp"
-        android:layout_height="51dp"
-        android:backgroundTint="@color/white"
-        android:text="Hoja de vacunacion"
-        android:textColor="#131313"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="473dp" />
-<!--Boton de transalado a la lista de animales vacunados-->
-    <Button
-        android:id="@+id/btnav"
-        android:layout_width="156dp"
-        android:layout_height="51dp"
-        android:backgroundTint="@color/white"
-        android:text="Animales vacunados"
-        android:textColor="#131313"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="237dp" />
-<!--  Boton de traslado a la pestaña de registro de vacuna -->
+    <!--boton de traslado a la pestañade de hoja de vacunacion-->
+    <!--Boton de transalado a la lista de animales vacunados-->
+    <!--  Boton de traslado a la pestaña de registro de vacuna -->
+
     <Button
         android:id="@+id/btnrvc"
         android:layout_width="156dp"
@@ -85,9 +22,110 @@
         android:backgroundTint="@color/white"
         android:text="Registro de vacunas"
         android:textColor="#131313"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="237dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnhv"
+        android:layout_width="156dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/white"
+        android:text="Hoja de vacunacion"
+        android:textColor="#131313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="107dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554"
+        app:srcCompat="@drawable/vacuna"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="107dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169"
+        app:srcCompat="@drawable/jeringuilla"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="107dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.799"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554"
+        app:srcCompat="@drawable/vacunacion"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnav"
+        android:layout_width="156dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/white"
+        android:text="Animales vacunados"
+        android:textColor="#131313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnrv"
+        android:layout_width="156dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/white"
+        android:text="Registrar vacunas"
+        android:textColor="#131313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="107dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.799"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169"
+        app:srcCompat="@drawable/calidad"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

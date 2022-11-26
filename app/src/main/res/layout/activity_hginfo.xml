@@ -7,39 +7,53 @@
     android:layout_height="match_parent"
     tools:context=".hginfo">
     <!-- Inicio de imagenes-->
+
+
+    <!--    boton de traslado a la pestaña de productos aplicados-->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="117dp"
         android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158"
         app:srcCompat="@drawable/prevencion"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="99dp" />
+        tools:ignore="MissingConstraints" />
 
-
-
-
-<!--    boton de traslado a la pestaña de productos aplicados-->
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="117dp"
         android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157"
         app:srcCompat="@drawable/registrov3"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="258dp"
-        tools:layout_editor_absoluteY="99dp" />
+        tools:ignore="MissingConstraints" />
+
+    <!--    finalizan imagenes-->
+
+    <!--Boton de translado ala pestaña de control de vacunas-->
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="117dp"
         android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553"
         app:srcCompat="@drawable/registrov1"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="345dp" />
-    <!--    finalizan imagenes-->
+        tools:ignore="MissingConstraints" />
 
-    <!--Boton de translado ala pestaña de control de vacunas-->
+    <!--boton-->
     <Button
         android:id="@+id/btnpa"
         android:layout_width="175dp"
@@ -47,10 +61,18 @@
         android:backgroundTint="@color/white"
         android:text="Productos aplicados"
         android:textColor="#131313"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="486dp" />
-<!--boton-->
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724"
+        tools:ignore="MissingConstraints" />
+
+    <!--Boton de traslado al control de enfermedades-->
+
+    <!--Boton de translado ala pestaña de control de vacunas-->
+
     <Button
         android:id="@+id/btnce"
         android:layout_width="179dp"
@@ -58,10 +80,14 @@
         android:backgroundTint="@color/white"
         android:text="Control de enfermemedades"
         android:textColor="#131313"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="237dp" />
-<!--Boton de traslado al control de enfermedades-->
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352"
+        tools:ignore="MissingConstraints" />
+
     <Button
         android:id="@+id/btncv"
         android:layout_width="178dp"
@@ -69,19 +95,26 @@
         android:backgroundTint="@color/white"
         android:text="Control de vacunas"
         android:textColor="#131313"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="237dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352"
+        tools:ignore="MissingConstraints" />
 
-    <!--Boton de translado ala pestaña de control de vacunas-->
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="117dp"
         android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553"
         app:srcCompat="@drawable/ganado"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="241dp"
-        tools:layout_editor_absoluteY="345dp" />
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btnana"
@@ -90,8 +123,12 @@
         android:backgroundTint="@color/white"
         android:text="Añadir animal"
         android:textColor="#131313"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="486dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
