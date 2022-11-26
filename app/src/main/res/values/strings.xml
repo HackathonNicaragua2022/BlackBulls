@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Trazabilidad</string>
+    <string name="all">TODO</string>
+    <string name="name">""</string>
+    <string name="date">2 de marzo de 2020</string>
+    <string name="title_activity_main">Animales</string>
+    <string name="subtitle_activity_main">2020</string>
+    <string name="title_activity_add">Nuevo animale</string>
+    <string name="title_activity_edit">Datos del animal</string>
+    <string name="name_form">Nombre</string>
+    <string name="date_form">Fecha de nacimiento</string>
+    <string name="url_form">Url imagen</string>
+    <string name="description_form">Descripción</string>
+    <string name="save">Guardar</string>
+
 </resources>
