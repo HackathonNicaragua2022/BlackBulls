@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "496379664467",
+    "firebase_url": "https://trazabilidad-ceff6-default-rtdb.firebaseio.com",
+    "project_id": "trazabilidad-ceff6",
+    "storage_bucket": "trazabilidad-ceff6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496379664467:android:e6a2735eafa42fe5bd8ea6",
+        "android_client_info": {
+          "package_name": "com.example.trazabilidad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496379664467-hnfqs0t31g2njdqlq07a6j1o2a4r7iok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDKeYaEnW_7POPJIi_DCpKY1mEzV44cEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496379664467-hnfqs0t31g2njdqlq07a6j1o2a4r7iok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
