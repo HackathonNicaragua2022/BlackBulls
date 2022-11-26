@@ -1,11 +1,11 @@
-package com.example.trazabilidad
+package com.example.hlobby
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class piga : AppCompatActivity() {
+class qrscanner : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_piga)
+        setContentView(R.layout.activity_qrscanner)
     }
 }

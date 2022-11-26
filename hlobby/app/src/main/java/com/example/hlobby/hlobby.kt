@@ -1,11 +1,11 @@
-package com.example.trazabilidad
+package com.example.hlobby
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class pigainicio : AppCompatActivity() {
+class hlobby : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pigainicio)
+        setContentView(R.layout.activity_hlobby)
     }
 }

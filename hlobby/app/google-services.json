@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "947116994995",
+    "firebase_url": "https://trazabilidad-b9852-default-rtdb.firebaseio.com",
+    "project_id": "trazabilidad-b9852",
+    "storage_bucket": "trazabilidad-b9852.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947116994995:android:08f56b5944d27a1a151bc6",
+        "android_client_info": {
+          "package_name": "com.example.hlobby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947116994995-i5u778ll9c0vk2fplompu25l4b24slot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2VKgnsJzLKejbqXs8jVK2-metL87ASFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947116994995-i5u778ll9c0vk2fplompu25l4b24slot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947116994995:android:2e009feebb9254a1151bc6",
+        "android_client_info": {
+          "package_name": "prueba.server1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947116994995-i5u778ll9c0vk2fplompu25l4b24slot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2VKgnsJzLKejbqXs8jVK2-metL87ASFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947116994995-i5u778ll9c0vk2fplompu25l4b24slot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

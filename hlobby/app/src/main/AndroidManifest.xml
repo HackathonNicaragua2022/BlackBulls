@@ -2,38 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Trazabilidad"
+        android:theme="@style/Theme.Hlobby"
         tools:targetApi="31">
         <activity
             android:name=".registrof"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".qrsc"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-            <meta-data
-                android:name="com.google.android.gms.vision.DEPENDENCIES"
-                android:value="barcode" />
-        </activity>
-        <activity
-            android:name=".qrscanner2"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -47,7 +27,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".hvacunas"
+            android:name=".hvacuna"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -60,17 +40,15 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <!--
-<activity
+        <activity
             android:name=".hlobby"
-            android:exported="false" >
+            android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        -->
         <activity
-            android:name=".hlobby"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

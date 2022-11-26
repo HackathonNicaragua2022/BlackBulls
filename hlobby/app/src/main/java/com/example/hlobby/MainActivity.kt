@@ -1,11 +1,11 @@
-package com.example.trazabilidad
+package com.example.hlobby
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class pigaedit : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pigaedit)
+        setContentView(R.layout.activity_main)
     }
 }

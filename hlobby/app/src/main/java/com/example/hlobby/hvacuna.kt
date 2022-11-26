@@ -1,11 +1,11 @@
-package com.example.trazabilidad
+package com.example.hlobby
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class pigavisual : AppCompatActivity() {
+class hvacuna : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pigavisual)
+        setContentView(R.layout.activity_hvacuna)
     }
 }
